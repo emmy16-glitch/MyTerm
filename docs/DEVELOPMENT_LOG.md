@@ -68,15 +68,12 @@ bottom.
 
 ### Commit
 
-- `863f1d2` — "chore: establish project docs and Android application
-  foundation" (local branch `main`).
-- **Push status: NOT completed.** `git push -u origin main` failed with
-  `could not read Username for 'https://github.com'` — no Git credentials
-  are configured in this environment (no `gh` CLI, no SSH keys, no
-  credential helper). The commit is safe locally. To complete the push,
-  provide one of:
-  1. A GitHub personal access token exposed as `GIT_ASKPASS`/credential
-     helper in the agent environment, or
-  2. An SSH key registered with GitHub plus remote URL switch to SSH, or
-  3. A push performed from a Termux session where the user is
-     authenticated (`git push` after `git fetch` will then be in sync).
+- `863f1d2`, amended (pre-publish) to `6f4aee9` — "chore: establish
+  project docs and Android application foundation" (branch `main`).
+- **Push: completed and verified 2026-11-16.** Initial HTTPS push failed
+  (`could not read Username`); user confirmed SSH access to GitHub. The
+  Termux home already contained the key `~/.ssh/github_ed25519`; the
+  remote was switched to `git@github.com:emmy16-glitch/MyTerm.git` and
+  the repo-local `core.sshCommand` points at that key (local config
+  only, not committed). `git ls-remote` confirms remote `main` =
+  `6f4aee9` — identical to local `HEAD`.

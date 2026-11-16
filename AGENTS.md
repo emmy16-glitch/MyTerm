@@ -85,5 +85,5 @@ environment. This file contains durable rules for every future coding session
 Keep this section in sync with `docs/ROADMAP.md`:
 
 - Milestone 0 (audit + docs): complete — see `docs/DEVELOPMENT_LOG.md`.
-- Milestone 1 (Android project foundation): scaffolded; build verification
-  pending inside Code on the Go.
+- Milestone 1 (Android project foundation): scaffolded and pushed; build
+  verification pending inside Code on the Go.
