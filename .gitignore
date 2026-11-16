@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+app/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+local.properties
+
+# Code on the Go (AndroidIDE) app-local metadata — machine specific
+.cg/
+
+# Logs and crash dumps
+*.log
+hs_err_pid*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets / keystores — never commit
+*.jks
+*.keystore
+keystore.properties
+google-services.json
